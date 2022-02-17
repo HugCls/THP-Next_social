@@ -6,7 +6,7 @@ import { fetchLoginFailure, fetchLoginLogout, fetchLoginRequest, fetchLoginSucce
 import { fetchPostsFailure, fetchPostsRequest, fetchPostsSuccess } from "../posts/postsActions";
 import { fetchProfileDelete, fetchProfileFailure, fetchProfileRequest, fetchProfileSuccess } from "../profile/profileActions";
 import { fetchRegisterFailure, fetchRegisterRequest, fetchRegisterSuccess, fetchRegisterUnregister } from "../register/registerActions"
-import { fetchProfileUpdateFailure, fetchProfileUpdateRequest, fetchProfileUpdateSuccess } from "../updateProfile/updateProfileActions";
+import { fetchProfileUpdateFailure, fetchProfileUpdateRequest, fetchProfileUpdateSuccess } from "../updateProfile/updateProfileActions.js";
 import { fetchUserProfileFailure, fetchUserProfileRequest, fetchUserProfileSuccess} from "../userProfile/userProfileActions";
 
 export const registerFetch = (username, email, password) => {

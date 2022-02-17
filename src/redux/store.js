@@ -7,7 +7,7 @@ import { updateProfileReducer } from "./updateProfile/updateProfileReducer";
 import { postsReducer } from "./posts/postsReducer";
 import { createPostReducer } from "./createPost/createPostReducer";
 import { deletePostReducer } from "./deletePost/deletePostReducer";
-import { userProfileReducer } from "./userProfile/userprofileReducer";
+import { userProfileReducer } from "./userProfile/userProfileReducer";
 import { getUserPostsReducer } from "./getUserPosts/getUserPostsReducer";
 
 const rootReducers = combineReducers({
